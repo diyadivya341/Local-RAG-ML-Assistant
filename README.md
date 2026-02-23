@@ -18,7 +18,8 @@ The system uses:
 The content is stored in a Chroma vector database and retrieved dynamically based on user queries.
 
 **🛠️ Technologies Used**
-     **🧠 AI & NLP**
+
+ **🧠 AI & NLP**
 
 - LangChain (RAG pipeline orchestration)
 
