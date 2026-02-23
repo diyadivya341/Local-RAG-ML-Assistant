@@ -1,4 +1,4 @@
-📚 Project Summary
+**📚 Project Summary**
 
 This project is a fully local Retrieval-Augmented Generation (RAG) system built using LangChain, ChromaDB, Ollama, and Streamlit.
 
@@ -6,33 +6,33 @@ It allows users to ask Machine Learning related questions and receive context-aw
 
 The system runs completely locally — no API keys required — making it secure, lightweight, and cost-free.
 
-📂 Knowledge Base Details
+**📂 Knowledge Base Details**
 
 The system uses:
 
-Machine Learning textbook content
+- Machine Learning textbook content
 
-Preprocessed text documents
-Vector embeddings for semantic search
+- Preprocessed text documents
+- Vector embeddings for semantic search
 
 The content is stored in a Chroma vector database and retrieved dynamically based on user queries.
 
-🛠️ Technologies Used
-🧠 AI & NLP
+**🛠️ Technologies Used**
+     **🧠 AI & NLP**
 
-LangChain (RAG pipeline orchestration)
+- LangChain (RAG pipeline orchestration)
 
-Ollama (Local LLM execution)
+- Ollama (Local LLM execution)
 
-TinyLlama (Lightweight LLM model)
+- TinyLlama (Lightweight LLM model)
 
-HuggingFace Sentence Transformers
+- HuggingFace Sentence Transformers
 
-ChromaDB (Vector database)
+- ChromaDB (Vector database)
 
-🖥️ Web Application
+**🖥️ Web Application**
 
-Streamlit (Interactive web UI)
+**Streamlit (Interactive web UI)**
 
 📦 Other Tools
 
@@ -40,12 +40,12 @@ Python
 
 Embedding model: all-MiniLM-L6-v2
 
-🛠️ Project Workflow
+**🛠️ Project Workflow**
 1️⃣ Document Processing
 
-Text data is loaded and split into chunks.
+- Text data is loaded and split into chunks.
 
-Each chunk is converted into vector embeddings.
+- Each chunk is converted into vector embeddings.
 
 2️⃣ Vector Storage
 
@@ -57,15 +57,15 @@ When a user asks a question, relevant context is retrieved using semantic simila
 
 4️⃣ Generation
 
-Retrieved context + question is passed to TinyLlama (via Ollama).
+- Retrieved context + question is passed to TinyLlama (via Ollama).
 
-The LLM generates a context-aware answer.
+- The LLM generates a context-aware answer.
 
 5️⃣ Web Interface
 
-Streamlit provides a simple input box for asking ML questions.
+- Streamlit provides a simple input box for asking ML questions.
 
-The answer is displayed instantly.
+- The answer is displayed instantly.
 
 📈 System Features
 
@@ -76,10 +76,13 @@ The answer is displayed instantly.
 ✔ Modular RAG architecture
 
 🚀 How to Run Locally
+
 pip install -r requirements.txt
 ollama pull tinyllama
+
 python -m streamlit run app.py
-🧠 Model Used
+
+**🧠 Model Used**
 
 TinyLlama (via Ollama)
 
