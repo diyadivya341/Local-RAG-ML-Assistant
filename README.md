@@ -39,7 +39,7 @@ The content is stored in a Chroma vector database and retrieved dynamically base
 
 Python
 
-Embedding model: all-MiniLM-L6-v2
+- Embedding model: all-MiniLM-L6-v2
 
 **🛠️ Project Workflow**
 1️⃣ Document Processing
@@ -50,11 +50,11 @@ Embedding model: all-MiniLM-L6-v2
 
 2️⃣ Vector Storage
 
-Embeddings are stored in ChromaDB for fast similarity search.
+- Embeddings are stored in ChromaDB for fast similarity search.
 
 3️⃣ Retrieval
 
-When a user asks a question, relevant context is retrieved using semantic similarity.
+- When a user asks a question, relevant context is retrieved using semantic similarity.
 
 4️⃣ Generation
 
@@ -71,14 +71,19 @@ When a user asks a question, relevant context is retrieved using semantic simila
 📈 System Features
 
 ✔ Fully local execution (No API key required)
+
 ✔ Lightweight model (TinyLlama)
+
 ✔ Semantic search with embeddings
+
 ✔ Interactive Streamlit UI
+
 ✔ Modular RAG architecture
 
 🚀 How to Run Locally
 
 pip install -r requirements.txt
+
 ollama pull tinyllama
 
 python -m streamlit run app.py
@@ -88,6 +93,7 @@ python -m streamlit run app.py
 TinyLlama (via Ollama)
 
 Embedding Model:
+
 sentence-transformers/all-MiniLM-L6-v2
 
 <img width="1721" height="743" alt="Screenshot 2026-02-23 134700" src="https://github.com/user-attachments/assets/b58fbfa3-c3ea-442c-887c-2f512341632a" />
